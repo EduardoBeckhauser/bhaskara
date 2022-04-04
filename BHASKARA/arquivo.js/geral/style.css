@@ -1,0 +1,35 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    background-color: rgb(247, 183, 162);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    border-radius: 20px;
+    background-color: rgb(216, 93, 113);
+    padding: 20px;
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-color: white;
+    border: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main input {
+    margin: 10px 0;
+    height: 40px;
+    border-radius: 20px;
+    border: 0.4px solid black;
+}
+
+
+button{
+    width: 50%;
+    border-radius: 20%;
+}
